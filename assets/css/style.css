@@ -36,6 +36,7 @@ h1 {
     padding: 10px;
     background-image: url(../images/first.jpg);
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0  6px 0 rgb(0, 0, 0);
+    border-radius: 5px;
 }
 .first h2 {
     text-align: center;
@@ -44,6 +45,11 @@ h1 {
     color: silver;
 }
 /*car images and text*/
+.aboutcar {
+text-align: center;
+font-size: 50px;
+color: silver;
+}
 div.image1 {
     margin: 5px;
     border: 1px solid #ccc;
