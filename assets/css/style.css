@@ -12,4 +12,19 @@ h1 {
 #logo {
     text-align: center;
 }
-
+/*Navigation links*/
+.topmenu {
+    overflow: hidden;
+    background-color: white;
+}
+.topmenu a {
+    margin: 100px;
+    color: black;
+    text-align: center;
+    padding: 75px;
+    text-decoration: none;
+    font-size: 33px;
+}
+.topmenu a:hover {
+    color: grey;
+}
