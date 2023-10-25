@@ -43,3 +43,26 @@ h1 {
     font-size: 40px;
     color: silver;
 }
+/*car images and text*/
+div.image1 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 430px;
+}
+div.image1 img {
+width: 100%;
+height: auto;
+}
+
+/*four images*/
+div.image2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 430px;
+}
+div.image2 img {
+    width: 100%;
+    height: auto;
+}
