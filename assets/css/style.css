@@ -81,4 +81,14 @@ div.image2 img {
     font-size: 20px;
     color: silver;
 }
-/*/
+/*social links*/
+footer {
+    text-align: center;
+}
+footer a {
+    color: #ffffff;
+    display: inline;
+        font-size: 200%;
+        margin: 1%;
+        padding: 5%;
+    }
