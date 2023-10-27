@@ -1,8 +1,8 @@
 body {
-font-family: cinzel;
-font-weight: 400;
-color: rgb(255, 255, 255);
-background-color: rgb(27, 27, 27);
+    font-family: cinzel;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 27, 27);
 }
 /*Headings and logo*/
 h1 { 
@@ -46,9 +46,9 @@ h1 {
 }
 /*car images and text*/
 .aboutcar {
-text-align: center;
-font-size: 50px;
-color: silver;
+    text-align: center;
+    font-size: 50px;
+    color: silver;
 }
 div.image1 {
     margin: 5px;
@@ -57,12 +57,11 @@ div.image1 {
     width: 430px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 0 rgb(0, 0, 0);
     border-radius: 3px;
-    }
-div.image1 img {
-width: 100%;
-height: auto;
 }
-
+div.image1 img {
+    width: 100%;
+    height: auto;
+}
 /*four images*/
 div.image2 {
     margin: 5px;
@@ -78,7 +77,7 @@ div.image2 img {
 }
 /*contacts*/
 .time {
-    font-size: 20px;
+    font-size: 30px;
     color: silver;
 }
 /*social links*/
@@ -88,19 +87,22 @@ footer {
 footer a {
     color: #ffffff;
     display: inline;
-    font-size: 200%;
+    font-size: 300%;
     margin: 1%;
     padding: 5%;
 }
 /*signup form*/
-
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.form-container {
+    text-align: center;
+    font-size: 35px;
+}
+.form-container {
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding: 10px;
+    background-image: url("../images/first.jpg");
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 0 rgb(0, 0, 0);
+    border-radius: 5px;
+    background-image: url(../images/big.jpg);
 }

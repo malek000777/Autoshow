@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="car show, legendar cars">
-    <meta name="keywords" content="car show, legendary cars, lamburgini, rolls roys, range rover, bently, mercedes, ferrari">
+    <meta name="keywords"
+        content="car show, legendary cars, lamburgini, rolls roys, range rover, bently, mercedes, ferrari">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
+        rel="stylesheet">
     <title>Car Show</title>
 </head>
+
 <body>
     <!--Logo-->
     <h1 id="logo">Legendary cars</h1>
@@ -19,15 +23,17 @@
         <a href="contacts.html">Contacts</a>
         <a href="signup.html">Signup</a>
     </nav>
-    <div>
-        <h2 class="bg">Signup here</h2>
-<form action="/submit_form" method="post">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br>
-    <input type="submit" value="Submit">
-</form>
-</div>
+    <!--signup form-->
+    <div class="form-container">
+        <h2>Signup here</h2>
+        <form action="https://formdump.codeinstitute.net" method="POST" autocomplete="on">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name.."><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required  autocomplete="email" placeholder="Your email.."><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
+
 </html>
